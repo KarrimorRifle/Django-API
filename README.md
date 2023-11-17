@@ -12,3 +12,6 @@ Planning to connect this up to VUE & MySQL, which will probably be seen in other
 - Swagger (automated API docs)
 - Github (ofc)
 
+## What practices are going to be used?
+Test Driven Decelopment (TDD)
+- Writing tests before implementation
