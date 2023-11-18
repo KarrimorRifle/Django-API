@@ -15,3 +15,6 @@ Planning to connect this up to VUE & MySQL, which will probably be seen in other
 ## What practices are going to be used?
 Test Driven Decelopment (TDD)
 - Writing tests before implementation
+
+## Building images
+run 'docker build .' , 'docker-compose build'
