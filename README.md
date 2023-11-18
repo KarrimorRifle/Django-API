@@ -64,3 +64,12 @@ Djangorestframework:
     within the test method run:
     `client = APIClient()`
     `res = client.{get,push, etc.}('api url')`
+
+### Trouble shooting
+#### Tests arent running
+1. Ensure `__init__.py` is there in the same folder of `tests.py`
+2. Ensure indentations are correct
+3. ensure the `test` have the `test_` prefix
+   
+### Import errors
+1. check there isn't both a `tests` directory and `tests.py` file
