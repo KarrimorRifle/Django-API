@@ -29,3 +29,7 @@ docker-compose run --rm app sh -c "django startproject app ."
 
 ## starting a container
 docker-compose up
+
+## (TDD) adding features to app
+ 1. Add test to the tests.py file for expected input & output
+ 2. add the functionality
