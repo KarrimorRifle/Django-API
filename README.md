@@ -73,3 +73,6 @@ Djangorestframework:
    
 ### Import errors
 1. check there isn't both a `tests` directory and `tests.py` file
+
+## volumes
+Persistent data, found in official docs of whatever DB ur using
