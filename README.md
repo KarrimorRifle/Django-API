@@ -33,3 +33,34 @@ docker-compose up
 ## (TDD) adding features to app
  1. Add test to the tests.py file for expected input & output
  2. add the functionality
+
+## mocking
+
+Removal of external dependencies on tests:
+overide externalisation & sleep function code
+
+### how to do it?
+
+Use [unittest.mock](https://docs.python.org/3/library/unittest.mock.html) library
+
+## tests
+### Running
+python manage.py test
+
+using the docker file:
+    docker-compose run --rm app sh -c "python manage.py test"
+
+### Creating tests
+In the app add 'tests.py' file
+now just copy the setup.
+dont forget 'test_' for all test methods
+Use 'self.assertEqual(res,value)' at the end of the method to do the unit test check
+
+### API
+
+Djangorestframework:
+    In `tests.py` use:
+    `from rest_framework.tests import APIClient`
+    within the test method run:
+    `client = APIClient()`
+    `res = client.{get,push, etc.}('api url')`
