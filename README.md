@@ -26,3 +26,6 @@ Running flake8:
 
 ## creating python app
 docker-compose run --rm app sh -c "django startproject app ."
+
+## starting a container
+docker-compose up
