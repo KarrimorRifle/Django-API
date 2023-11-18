@@ -12,3 +12,4 @@ python manage.py test
 ### Creating tests
 In the app add 'tests.py' file
 now just copy the setup.
+dont forget 'test_' for all test methods
