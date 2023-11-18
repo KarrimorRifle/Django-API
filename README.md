@@ -17,4 +17,5 @@ Test Driven Decelopment (TDD)
 - Writing tests before implementation
 
 ## Building images
-run 'docker build .' , 'docker-compose build'
+run 'docker-compose build'
+<s>run 'docker build .' </s>
