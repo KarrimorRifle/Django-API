@@ -19,3 +19,7 @@ Test Driven Decelopment (TDD)
 ## Building images
 run 'docker-compose build'
 <s>run 'docker build .' </s>
+
+## linting
+Running flake8:
+    docker-compose run --rm app sh -c "flake8"
