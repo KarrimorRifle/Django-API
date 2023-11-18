@@ -23,3 +23,6 @@ run 'docker-compose build'
 ## linting
 Running flake8:
     docker-compose run --rm app sh -c "flake8"
+
+## creating python app
+docker-compose run --rm app sh -c "django startproject app ."
